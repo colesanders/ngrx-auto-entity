@@ -231,6 +231,7 @@ describe('NgRX Auto-Entity: Service', () => {
           });
           expect(consoleMsgs.length).toBe(2);
           expect(consoleMsgs[0]).toBe('[NGRX-AE] ! Service error: load(). (Entity: TestModel)');
+          // prettier-ignore
           expect(consoleMsgs[1]).toBe('{ message: \'StaticInjector error\' }');
         }
       );
